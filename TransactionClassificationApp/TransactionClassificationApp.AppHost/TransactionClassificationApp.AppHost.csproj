@@ -9,8 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TransactionClassificationApp.ApiService\TransactionClassificationApp.ApiService.csproj" />
     <ProjectReference Include="..\TransactionClassificationApp.Web\TransactionClassificationApp.Web.csproj" />
+    <ProjectReference Include="..\TransactionClassificationApp.TransactionService\TransactionClassificationApp.TransactionService.csproj" />
+    <ProjectReference Include="..\TransactionClassificationApp.ClassificationService\TransactionClassificationApp.ClassificationService.csproj" />
   </ItemGroup>
 
 </Project>

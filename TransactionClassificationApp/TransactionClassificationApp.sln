@@ -12,6 +12,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.Web", "TransactionClassificationApp.Web\TransactionClassificationApp.Web.csproj", "{E82BB67F-C73C-43C0-9DA3-69950942CC72}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.TransactionService", "TransactionClassificationApp.TransactionService\TransactionClassificationApp.TransactionService.csproj", "{12345678-1234-1234-1234-123456789001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.ClassificationService", "TransactionClassificationApp.ClassificationService\TransactionClassificationApp.ClassificationService.csproj", "{12345678-1234-1234-1234-123456789002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
