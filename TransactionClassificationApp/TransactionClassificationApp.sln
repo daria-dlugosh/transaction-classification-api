@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.AppHost", "TransactionClassificationApp.AppHost\TransactionClassificationApp.AppHost.csproj", "{CF56C9CC-6356-4F28-9C91-F9EDF8AFDD93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.ServiceDefaults", "TransactionClassificationApp.ServiceDefaults\TransactionClassificationApp.ServiceDefaults.csproj", "{FE342F97-54C8-4281-928B-19AC849FB274}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.ApiService", "TransactionClassificationApp.ApiService\TransactionClassificationApp.ApiService.csproj", "{A1924CF4-FC19-4DAB-BCCB-B19EC53BFD19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.Tests", "TransactionClassificationApp.Tests\TransactionClassificationApp.Tests.csproj", "{63072433-0F91-4F37-8C1B-7712401D4948}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactionClassificationApp.Web", "TransactionClassificationApp.Web\TransactionClassificationApp.Web.csproj", "{E82BB67F-C73C-43C0-9DA3-69950942CC72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF56C9CC-6356-4F28-9C91-F9EDF8AFDD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF56C9CC-6356-4F28-9C91-F9EDF8AFDD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF56C9CC-6356-4F28-9C91-F9EDF8AFDD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF56C9CC-6356-4F28-9C91-F9EDF8AFDD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE342F97-54C8-4281-928B-19AC849FB274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE342F97-54C8-4281-928B-19AC849FB274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE342F97-54C8-4281-928B-19AC849FB274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE342F97-54C8-4281-928B-19AC849FB274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1924CF4-FC19-4DAB-BCCB-B19EC53BFD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1924CF4-FC19-4DAB-BCCB-B19EC53BFD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1924CF4-FC19-4DAB-BCCB-B19EC53BFD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1924CF4-FC19-4DAB-BCCB-B19EC53BFD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63072433-0F91-4F37-8C1B-7712401D4948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63072433-0F91-4F37-8C1B-7712401D4948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63072433-0F91-4F37-8C1B-7712401D4948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63072433-0F91-4F37-8C1B-7712401D4948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82BB67F-C73C-43C0-9DA3-69950942CC72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A627017-3960-4A0F-B3E5-4E2875BE66C5}
+	EndGlobalSection
+EndGlobal

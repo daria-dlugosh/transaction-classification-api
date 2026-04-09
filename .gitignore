@@ -416,3 +416,31 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# .NET Aspire specific files
+# Aspire AppHost and dashboard component projects
+*.dcproj.user
+aspire-dashboard/
+.aspire/
+
+# Aspire local database and cache
+*.db
+*.db-wal
+*.db-shm
+
+# Aspire service defaults
+ServiceDefaults/obj/
+ServiceDefaults/bin/
+
+# Aspire build artifacts
+**/AppHost/bin/
+**/AppHost/obj/
+**/ServiceDefaults/bin/
+**/ServiceDefaults/obj/
+
+# Generated Aspire component files
+**/Components/GeneratedFiles/
+
+# Aspire local run artifacts
+.aspire-artifacts/
+aspire-packages/
