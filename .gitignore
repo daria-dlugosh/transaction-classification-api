@@ -45,6 +45,35 @@ bld/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
+# wwwroot libraries - managed via LibMan or package managers
+**/wwwroot/lib/
+
+# IDE specific files
+.idea/
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Blazor build output
+wwwroot/dist/
+wwwroot/build/
+wwwroot/_framework/
+
+# Frontend tooling
+node_modules/
+
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 
@@ -416,3 +445,31 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# .NET Aspire specific files
+# Aspire AppHost and dashboard component projects
+*.dcproj.user
+aspire-dashboard/
+.aspire/
+
+# Aspire local database and cache
+*.db
+*.db-wal
+*.db-shm
+
+# Aspire service defaults
+ServiceDefaults/obj/
+ServiceDefaults/bin/
+
+# Aspire build artifacts
+**/AppHost/bin/
+**/AppHost/obj/
+**/ServiceDefaults/bin/
+**/ServiceDefaults/obj/
+
+# Generated Aspire component files
+**/Components/GeneratedFiles/
+
+# Aspire local run artifacts
+.aspire-artifacts/
+aspire-packages/

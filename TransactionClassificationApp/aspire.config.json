@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "TransactionClassificationApp.AppHost/TransactionClassificationApp.AppHost.csproj"
+  }
+}
