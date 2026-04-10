@@ -45,6 +45,35 @@ bld/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
+# wwwroot libraries - managed via LibMan or package managers
+**/wwwroot/lib/
+
+# IDE specific files
+.idea/
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Blazor build output
+wwwroot/dist/
+wwwroot/build/
+wwwroot/_framework/
+
+# Frontend tooling
+node_modules/
+
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 

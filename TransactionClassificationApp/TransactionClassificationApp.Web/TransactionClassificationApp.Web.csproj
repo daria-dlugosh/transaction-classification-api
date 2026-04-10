@@ -10,4 +10,8 @@
     <ProjectReference Include="..\TransactionClassificationApp.ServiceDefaults\TransactionClassificationApp.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="7.10.0" />
+  </ItemGroup>
+
 </Project>
